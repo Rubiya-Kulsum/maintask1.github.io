@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+
+.logo{
+display: flex;
+align-items: center;
+}
+
+.fa-bars{
+    cursor: pointer;
+    padding:0 10px;
+}
+
+.search-m{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -55px;
+    }
+
+.search-m form{
+   display:flex;
+    height:45px;
+   
+}
+.search-m input {
+    width: 600px;
+    padding:10px;
+    height: 100%;
+    border:1px solid rgb(230, 227, 227);
+    
+    border-radius: 20px 0 0px 20px;
+}
+   
+  .search-m button {
+    height: 100%;
+    width: 60px;
+    border:1px solid rgb(201, 199, 199);
+    border-radius: 0px 20px 20px 0;
+  }
+  .search-m button:hover{
+    background-color: rgb(238, 222, 222);
+  }
+   
+  .fa-microphone {
+
+    margin-left:12px;
+   
+    padding:14px;
+    border-radius: 25px;
+    background-color: rgb(233, 233, 233);
+  }
+  .fa-microphone:hover{
+    background-color: rgb(203, 209, 197);
+  }
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -35px;
+    padding:0 10px;
+    font-size: 25px;
+    color: rgb(180, 175, 175);
+}
+.icon i{
+    
+    padding:0 23px;
+}
+
+.icon i:hover{
+    background-color: rgb(203, 209, 197);
+    border-radius: 25px;
+    padding:10px 13px;
+}
+.content{
+    margin-top: 10px;
+   
+}
+.content iframe{
+    border-radius: 10px;
+    margin-left: 12px;
+    
+}
+ .content h2{
+    margin-left:12px;
+    padding:5px;
+ }
+
+.des{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left:35px;
+    margin-top: 5px;
+}
+ .des h5{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    
+ }
+
+ .des button{
+    background-color: black;
+    color:aliceblue;
+    margin-left:61px;
+    border-radius:20px;
+    padding:10px;
+    width:150px;
+    cursor: pointer;
+    font-size: 15px;
+ }
+.des a{
+    text-decoration: none;
+    color:white;
+   
+}
+
+.des i{
+    margin-left:20px;
+    margin-right: 5px;
+    border-radius: 20px;
+    background-color: rgb(217, 219, 215);
+    padding:10px;
+}
+
+.des i:hover{
+    background-color: rgb(150, 151, 149);
+}
+
+.main-cap {
+    margin-left:25px;
+    margin-top:15px;
+    padding:10px;
+    background-color: rgb(216, 216, 210);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.main-cap li{
+    margin-left:25px;
+}

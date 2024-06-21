@@ -143,6 +143,8 @@ align-items: center;
     background-color: rgb(216, 216, 210);
     border-radius: 20px;
     margin-bottom: 20px;
+    width:750px;
+    height:200px;
 }
 .main-cap li{
     margin-left:25px;
